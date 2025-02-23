@@ -1,7 +1,15 @@
 {
   "expo": {
-    "name": "MyApp",
-    "slug": "MyApp",
-    "version": "1.0.0"
+    "name": "SkillShare",
+    "slug": "skillshare",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.skillshare.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8805b277-8ad1-4007-b93d-aafb0088cabd"
+      }
+    }
   }
 }

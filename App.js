@@ -34,7 +34,7 @@ export default function App() {
 }
 */
 
-import { NavigationContainer } from '@react-navigation/native';
+/*import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import GoogleAuthTest from './screens/GoogleAuthTest.js';  // Import test screen
 
@@ -48,4 +48,40 @@ export default function App() {
             </Stack.Navigator>
         </NavigationContainer>
     );
+}*/
+
+/*import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import GoogleAuthTest from './screens/GoogleAuthTest.js'; 
+
+const Stack = createStackNavigator();
+
+export default function App() {
+    return (
+        <NavigationContainer>
+            <Stack.Navigator>
+                <Stack.Screen name="GoogleAuthTest" component={GoogleAuthTest} />
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
 }
+*/
+
+import "react-native-gesture-handler";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import GoogleAuthTest from "./screens/GoogleAuthTest";
+
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="GoogleAuthTest" component={GoogleAuthTest} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+  

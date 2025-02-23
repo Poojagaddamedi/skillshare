@@ -1,4 +1,4 @@
-package com.myapp
+package com.anonymous.MyApp
 
 import android.os.Build
 import android.os.Bundle
